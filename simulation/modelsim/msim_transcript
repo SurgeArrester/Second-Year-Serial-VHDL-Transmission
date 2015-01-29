@@ -1,0 +1,82 @@
+# Reading C:/altera/12.0/modelsim_ae/tcl/vsim/pref.tcl 
+# do finalreceiver_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.0\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.0\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/Final VHDl/finalreceiver.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0d Compiler 2012.01 Jan 18 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity finalreceiver
+# -- Compiling architecture module of finalreceiver
+# -- Compiling entity clock_divider
+# -- Compiling architecture division of clock_divider
+# -- Compiling entity shiftreg
+# -- Compiling architecture shift of shiftreg
+# -- Compiling entity hexconv
+# -- Compiling architecture converter of hexconv
+# 
+#  
+vsim work.finalreceiver(module)
+# vsim work.finalreceiver(module) 
+# //  ModelSim ALTERA 10.0d Jan 18 2012 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.finalreceiver(module)
+# Loading work.shiftreg(shift)
+# Loading work.hexconv(converter)
+# Loading work.clock_divider(division)
+add wave -position end  sim:/finalreceiver/datain
+add wave -position end  sim:/finalreceiver/disp0
+add wave -position end  sim:/finalreceiver/disp1
+add wave -position end  sim:/finalreceiver/disp2
+add wave -position end  sim:/finalreceiver/disp3
+add wave -position end  sim:/finalreceiver/clock
+force -freeze sim:/finalreceiver/clock 1 0, 0 {12 ps} -r 25
+force -freeze sim:/finalreceiver/datain 0 0
+run
+run
+force -freeze sim:/finalreceiver/datain 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/finalreceiver/datain 0 0
+run
+run
+run
+run
+force -freeze sim:/finalreceiver/datain 1 0
+run
+run
+run
+run
+force -freeze sim:/finalreceiver/datain 0 0
+run
+run
+run
+run
+run
+run
+run
+run

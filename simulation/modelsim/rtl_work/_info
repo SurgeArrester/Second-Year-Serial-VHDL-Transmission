@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Final VHDl\simulation\modelsim
+Eclock_divider
+Z1 w1370419126
+Z2 DPx4 ieee 11 numeric_std 0 22 k7B<7GmYYYmX;0X]XHFD10
+Z3 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\Final VHDl\simulation\modelsim
+Z6 8E:/Final VHDl/finalreceiver.vhd
+Z7 FE:/Final VHDl/finalreceiver.vhd
+l0
+L52
+VWX<lI7jPGgbQQK3^WYbfK3
+!s100 kZXYHOlO1M7PEFg9e[hdD2
+Z8 OV;C;10.0d;49
+31
+Z9 !s108 1370419214.609000
+Z10 !s90 -reportprogress|300|-93|-work|work|E:/Final VHDl/finalreceiver.vhd|
+Z11 !s107 E:/Final VHDl/finalreceiver.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Adivision
+R2
+R3
+R4
+DEx4 work 13 clock_divider 0 22 WX<lI7jPGgbQQK3^WYbfK3
+l60
+L59
+VY]jQ2bP1mF:>iQBCPH1OX0
+!s100 mXPQZWBKVRZ8V=?;^O2G33
+R8
+31
+R9
+R10
+R11
+R12
+R13
+Efinalreceiver
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+l0
+L12
+VUbaSV`GJR:XdoPzX:KG^^1
+!s100 2KjN4i@^@]5?MLL46h45>1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+Amodule
+R2
+R3
+R4
+DEx4 work 13 finalreceiver 0 22 UbaSV`GJR:XdoPzX:KG^^1
+l41
+L18
+VQMQI`PRlUaVe1KGXbEN8=0
+!s100 Ro4GjN6J5CX2=ON1dH7<]2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+Ehexconv
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+l0
+L130
+V1_nFZ3T:V`1AG`aG:lHI41
+!s100 ]nzZfS^6EzICL8fhmI9BG2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+Aconverter
+R2
+R3
+R4
+DEx4 work 7 hexconv 0 22 1_nFZ3T:V`1AG`aG:lHI41
+l136
+L135
+Vk]^@SbQ6OXnnZdU__;L_F2
+!s100 @gATV>9fX9e9eOjH<:7Ec2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+Eshiftreg
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+l0
+L85
+VY3[Hjg5l8R2^_aS0JFoW@0
+!s100 EI4nKZSZ5KoaTjShI03DC2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+Ashift
+R2
+R3
+R4
+DEx4 work 8 shiftreg 0 22 Y3[Hjg5l8R2^_aS0JFoW@0
+l94
+L91
+VI7`5P309HFjCnJWl^3V=D3
+!s100 3aKTQ7oQDOe8og]9_Y10F1
+R8
+31
+R9
+R10
+R11
+R12
+R13
